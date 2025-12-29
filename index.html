@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graphic Designer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>My Portfolio</h1>
+<div id="gallery"></div>
+
+<script>
+fetch('/works')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('gallery').innerHTML =
+      data.map(w => `
+        <div class="card">
+          <img src="https://YOUR_R2_URL/${w.image}">
+          <p>${w.caption}</p>
+        </div>
+      `).join('');
+  });
+</script>
+</body>
+</html>

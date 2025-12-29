@@ -1,0 +1,6 @@
+name = "cloudflare-portfolio"
+main = "functions"
+
+[vars]
+ADMIN_PASSWORD = "your-strong-password"
+SECRET = "random-long-secret"
