@@ -1,7 +1,8 @@
+
 # Wrangler configuration for Cloudflare Workers
 name = "cloudflare-portfolio"
-type = "javascript"
-main = "functions"
+# type = "javascript"  # Removed as it's not a valid field
+# main = "functions"   # Removed, as 'functions' is a directory, not a file
 
 [vars]
 ADMIN_PASSWORD = "your-strong-password"
