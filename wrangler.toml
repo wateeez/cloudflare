@@ -1,6 +1,10 @@
 
 # Wrangler configuration for Cloudflare Workers
 name = "cloudflare-portfolio"
+[compatibility_date]
+compatibility_date = "2025-12-30"
+
+main = "functions/login.js"
 # type = "javascript"  # Removed as it's not a valid field
 # main = "functions"   # Removed, as 'functions' is a directory, not a file
 
