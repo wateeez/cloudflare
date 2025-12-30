@@ -1,8 +1,7 @@
+
 # Wrangler configuration for Cloudflare Workers
 name = "cloudflare-portfolio"
 type = "javascript"
-
-name = "cloudflare-portfolio"
 main = "functions"
 
 [vars]
