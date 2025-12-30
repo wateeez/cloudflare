@@ -1,4 +1,3 @@
-
 # Wrangler configuration for Cloudflare Workers
 name = "cloudflare-portfolio"
 type = "javascript"
